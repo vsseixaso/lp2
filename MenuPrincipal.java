@@ -16,7 +16,7 @@ public class MenuPrincipal {
 				printMenu();
 				break;
 				
-			//definir um novo preço
+			//gerenciar produtos
 			case "2": 
 				  System.out.println("Defina um novo preço.");
 				  double preco = sc.nextDouble();
@@ -34,6 +34,6 @@ public class MenuPrincipal {
 		System.out.println();
 		System.out.println("Bem vindo ao Lojão LP2!");
 		System.out.println("Menu Inicial: Digite uma das opções abaixo: \n");
-		System.out.println("1 - Realizar compra. \n2 - Mudar preço base de produtos. \n3 - Sair \n \nOpção:");
+		System.out.println("1 - Realizar compra. \n2 - Gerenciar produtos. \n3 - Sair \n \nOpção:");
 	}
 }

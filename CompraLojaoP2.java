@@ -13,6 +13,7 @@ public class CompraLojaoP2 {
 		String[] produtos = new String[1000];
 		int[] quantidade = new int[1000];
 		
+		//carrinho de compras
 		int count = 0;
 		for (int i = 1; i <= n; i++) {
 			System.out.print("Nome do Produto " + i + ": ");
